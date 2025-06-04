@@ -22,6 +22,7 @@ body {
     width: 100%;
     padding: 0px 0px 0px 0px;
     margin: 0;
+    font-size: large;
 }
 
 .container {
@@ -109,4 +110,29 @@ a{
 .oldalCim >* {
     text-decoration: none;
     color: white;
+}
+
+.wp-element-button {
+    border-radius: 0px;
+    background-image: linear-gradient(180deg,rgba(61, 49, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border: solid 5px;
+    border-image-source: linear-gradient(rgba(23, 224, 81, 1) 0%, rgba(9, 159, 52, 1) 100%);
+    border-image-slice: 1;
+    font-style: italic;
+}
+
+footer {
+    background-image: linear-gradient(rgba(23, 224, 81, 1) 0%, rgba(9, 159, 52, 1) 100%);
+}
+
+footer > .container > p {
+    background-image: linear-gradient(180deg,rgba(61, 49, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    font-size: large;
+    text-align: center;
+    border: solid 5px;
+    border-image-source: linear-gradient(rgba(23, 224, 81, 1) 0%, rgba(9, 159, 52, 1) 100%);
+    border-image-slice: 1;
 }
