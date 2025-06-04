@@ -1,0 +1,112 @@
+/*
+Theme Name: Szoftverkókler
+Theme URI: https://turr.hu
+Author: OG & KK
+Author URI: https://turr.hu
+Description: Szoftverkókler sablon.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: basic, simple
+Text Domain: szoftverkokler
+*/
+
+/* Alapvető CSS stílusok ide kerülhetnek */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(180deg,rgba(61, 49, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: #ffffff;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    background-color: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px 0px 20px 0px;
+}
+
+header h1 {
+    color: #333;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #eee solid;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px #eee solid;
+}
+
+#primary-menu{
+    margin-right: 40px;
+}
+
+#primary-menu > li{
+    transform: skew(-20deg);
+    border: 3px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#primary-menu > li > ::content {
+    transform: skew(20deg);
+}
+
+.fejlec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(23, 224, 81, 1) 0%, rgba(9, 159, 52, 1) 100%) !important;
+    height: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a{
+    color: white !important;
+    text-decoration: none;
+}
+
+.oldalCim{
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.oldalCim >* {
+    text-decoration: none;
+    color: white;
+}
